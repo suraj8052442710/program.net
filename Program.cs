@@ -10,15 +10,16 @@ namespace switch_calculator
     {
         static void Main(string[] args)
         {
-            int num1 = 0;
-            int num2 = 0;
-            int result = 0;
+            double num1 = 0;
+            double num2 = 0;
+            double result = 0;
 
             Console.WriteLine("enter num1:");
-            num1 = Convert.ToInt32(Console.ReadLine());
+            num1 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("enter num2:");
-            num2 = Convert.ToInt32(Console.ReadLine());
+            num2 = Convert.ToDouble(Console.ReadLine());
+
 
             Console.WriteLine("enter an option");
             Console.WriteLine("+ : Add");
